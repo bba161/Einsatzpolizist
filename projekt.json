@@ -1,0 +1,63 @@
+{
+  "type": "rheinische-post-ausruestungskarte",
+  "version": 3,
+  "exportedAt": "2026-09-28T11:50:48.133Z",
+  "inventorySide": "left",
+  "mainImage": "bilder/hauptbild-Dietze-Polizei-Frau-rechts-rgb.jpg",
+  "hotspots": [
+    {
+      "id": "hs_4ni2y9pjwqd",
+      "title": "Ballistischer Schutzhelm",
+      "text": "<div>Der Helm schützt Polizistinnen und Polizisten der Operativen Einheit vor Kopfverletzungen durch Schläge, abgefeuerte Munition oder Wurfgeschosse.</div>",
+      "x": 77.09,
+      "y": 4.84,
+      "detailImage": "bilder/detail-01-helm.jpg",
+      "detailName": "helm.jpg"
+    },
+    {
+      "id": "hs_nypmueflln5",
+      "title": "Schnittschutzschal",
+      "text": "<div>Der mit Fibergas verstärkte Röhrenschal schützt Polizistinnen und Polizisten vor Halsverletzungen bei Messerangriffen. Seit 2024 bei der saarländischen Polizei im Einsatz.</div>",
+      "x": 82.3,
+      "y": 17.94,
+      "detailImage": "bilder/detail-02-Tuch.jpg",
+      "detailName": "Tuch.jpg"
+    },
+    {
+      "id": "hs_ynkopo7mhpc",
+      "title": "Schwere ballistische Schutzweste",
+      "text": "<div>Die Operative Einheit der saarländischen Polizei setzt auf eine andere schusssichere Weste. Zusätzlich zum Oberkörperschutz verfügt diese über eine Platte über dem Unterleib.</div>",
+      "x": 65.67,
+      "y": 24.44,
+      "detailImage": "bilder/detail-03-Schutzweste2.jpg",
+      "detailName": "Schutzweste2.jpg"
+    },
+    {
+      "id": "hs_ikf0661o05i",
+      "title": "Heckler & Koch MP 5",
+      "text": "<div>Die Maschinenpistole für kurze bis mittlere Distanz ist seit den 1980er Jahren im Einsatz. Kaliber: 9 × 19 mm, Magazingröße: 30 Schuss. Die Operative Einheit nutzt die Variante MP 5 A5 mit einziehbarer Schulterstütze und Rotpunktvisier.</div>",
+      "x": 65.04,
+      "y": 35.1,
+      "detailImage": "bilder/detail-04-MP4.jpg",
+      "detailName": "MP4.jpg"
+    },
+    {
+      "id": "hs_5odnuznpr9l",
+      "title": "Individual First Aid Kit (IFAK)",
+      "text": "<div>Seit 2026 erprobt die Polizei ein Set zur medizinischen Erstversorgung.</div>",
+      "x": 89.66,
+      "y": 38.76,
+      "detailImage": "bilder/detail-05-ersteHilfe.jpg",
+      "detailName": "ersteHilfe.jpg"
+    },
+    {
+      "id": "hs_r37vjzaqkjz",
+      "title": "Tourniquet",
+      "text": "<div>Aderpresse zum Abbinden von verletzten Gliedmaßen bei stark blutenden Wunden. Tourniquets sind März 2026 bei der saarländischen Polizei im Einsatz.</div>",
+      "x": 82.04,
+      "y": 60.69,
+      "detailImage": null,
+      "detailName": ""
+    }
+  ]
+}
