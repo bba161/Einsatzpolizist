@@ -1,7 +1,7 @@
 {
   "type": "rheinische-post-ausruestungskarte",
   "version": 3,
-  "exportedAt": "2026-09-28T11:50:48.133Z",
+  "exportedAt": "2026-09-28T11:59:38.404Z",
   "inventorySide": "left",
   "mainImage": "bilder/hauptbild-Dietze-Polizei-Frau-rechts-rgb.jpg",
   "hotspots": [
@@ -56,8 +56,8 @@
       "text": "<div>Aderpresse zum Abbinden von verletzten Gliedmaßen bei stark blutenden Wunden. Tourniquets sind März 2026 bei der saarländischen Polizei im Einsatz.</div>",
       "x": 82.04,
       "y": 60.69,
-      "detailImage": null,
-      "detailName": ""
+      "detailImage": "bilder/detail-06-tourniquet.jpg",
+      "detailName": "tourniquet.jpg"
     }
   ]
 }
