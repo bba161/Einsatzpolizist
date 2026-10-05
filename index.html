@@ -40,7 +40,64 @@
     .detail-copy ul,.detail-copy ol { margin:0 0 9px; padding-left:21px; }
     .no-image { display:grid; place-items:center; min-height:140px; padding:14px; color:var(--muted); background:#eef1ed; border-radius:9px; font-size:12px; text-align:center; }
     .footer { margin-top:12px; color:var(--muted); font-size:11px; text-align:center; }
-    @media (max-width:600px) { .masthead { display:block; } .hint { margin-top:10px; } .detail { grid-template-columns:1fr; width:88%; max-height:92%; } .detail img { max-height:240px; } }
+
+    @media (max-width:600px) {
+      .masthead { display:block; }
+      .hint { margin-top:10px; }
+
+      /* Auf dem Handy liegen Bild und Ausrüstungsliste untereinander. */
+      .stage {
+        display:grid;
+        grid-template-columns:minmax(0,1fr);
+        grid-template-areas:
+          "visual"
+          "inventory";
+        overflow:visible;
+      }
+      .stage[hidden] { display:none; }
+      .stage > img {
+        grid-area:visual;
+        border-radius:13px 13px 0 0;
+      }
+      .hotspots {
+        grid-area:visual;
+        position:relative;
+        inset:auto;
+        z-index:2;
+        width:100%;
+      }
+      .inventory,
+      .inventory.right {
+        grid-area:inventory;
+        position:relative;
+        inset:auto;
+        width:100%;
+        max-height:min(36vh,280px);
+        padding:14px;
+        border-radius:0 0 12px 12px;
+      }
+      .items {
+        grid-template-columns:repeat(2,minmax(0,1fr));
+        gap:8px;
+      }
+      .items button {
+        min-height:44px;
+        padding:10px;
+        font-size:14px;
+      }
+
+      /* Detailfenster bleibt auf kleinen Displays im sichtbaren Bereich. */
+      .detail {
+        position:fixed;
+        z-index:20;
+        grid-template-columns:1fr;
+        width:calc(100vw - 24px);
+        max-height:calc(100vh - 24px);
+        max-height:calc(100dvh - 24px);
+      }
+      .detail img { max-height:28vh; }
+    }
+
     @media (prefers-reduced-motion:reduce) { * { scroll-behavior:auto !important; transition:none !important; } }
   </style>
 </head>
